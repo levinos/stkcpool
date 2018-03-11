@@ -1,6 +1,6 @@
 {
-    "coin": "ducknote",
-    "symbol": "XDN",
+    "coin": "stopkimcoin",
+    "symbol": "STKC",
     "coinUnits": 100000000,
     "coinDifficultyTarget": 240,
 
@@ -46,7 +46,7 @@
             }
         ],
         "varDiff": {
-            "minDiff": 100,
+            "minDiff": 200,
             "maxDiff": 200000,
             "targetTime": 100,
             "retargetTime": 30,
@@ -105,12 +105,12 @@
 
     "daemon": {
         "host": "127.0.0.1",
-        "port": 42081
+        "port": 42211
     },
 
     "wallet": {
         "host": "127.0.0.1",
-        "port": 8082
+        "port": 42212
     },
 
     "redis": {
